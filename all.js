@@ -6,8 +6,12 @@ const wrapper = document.getElementById('wrapper');
   let url = location.search.split("?")[1];
   browserWidth = document.body.clientWidth;
   
-  if (browserWidth > 1400) {
+  if (browserWidth > 1600) {
+    imageWidth = Math.ceil(browserWidth * 0.4);
+  } else if (browserWidth > 1400) {
     imageWidth = Math.ceil(browserWidth * 0.5);
+  } else if (browserWidth > 1200) {
+    imageWidth = Math.ceil(browserWidth * 0.45);
   } else if (browserWidth > 767) {
     imageWidth = Math.ceil(browserWidth * 0.6);
   } else if (browserWidth > 414) {
