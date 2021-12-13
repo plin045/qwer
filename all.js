@@ -10,8 +10,8 @@ const wrapper = document.getElementById('wrapper');
     imageWidth = Math.ceil(browserWidth * 0.4);
   } else if (browserWidth > 1400) {
     imageWidth = Math.ceil(browserWidth * 0.47);
-  } else if (browserWidth > 1200) {
-    imageWidth = Math.ceil(browserWidth * 0.45);
+  } else if (browserWidth > 1000) {
+    imageWidth = Math.ceil(browserWidth * 0.5);
   } else if (browserWidth > 767) {
     imageWidth = Math.ceil(browserWidth * 0.6);
   } else if (browserWidth > 414) {
