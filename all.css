@@ -1,6 +1,6 @@
 img {
-  /* max-width:100%;  */
-  height:auto;
+  /* max-width: 100%;  */
+  height: auto;
 }
 .wrapper {
   max-width: 1110px;
@@ -12,7 +12,6 @@ img {
 .btn {
   display: block;
   width: 50%;
-  text-align: center;
   background-color: #547449;
   color: #FFFFFF;
   border: 0;
@@ -22,6 +21,11 @@ img {
   cursor: pointer;
   margin: 0 auto;
   padding: 10px 15px;
+}
+@media (min-width: 1400px) {
+  img {
+    max-width: 100%;
+  }
 }
 @media (max-width: 768px) {
   .btn {
@@ -52,7 +56,7 @@ form {
   right: 0;
   width: 0;
   height: 0;
-  background-image: url('./images/h5e5l6l6o.jpg');
+  background-image: url('./images/h5e5l6l6o.gif');
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
@@ -61,7 +65,7 @@ form {
 }
 
 .decode-image.show {
-  transition: all .25s .15s linear;
+  transition: all .25s linear;
   width: 100%;
   height: 100%;
 }
