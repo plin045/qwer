@@ -24,7 +24,7 @@ const wrapper = document.getElementById('wrapper');
 
   christmasImage.style.width = imageWidth + 'px';
 
-  if (url === "decode-text=hello5566") {
+  if (url === "decode-text=Fattys Owner") {
     decodeImage.classList.toggle('show');
     wrapper.style.display = 'none';
   }
