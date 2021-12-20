@@ -24,7 +24,7 @@ const wrapper = document.getElementById('wrapper');
 
   christmasImage.style.width = imageWidth + 'px';
 
-  if (url === "decode-text=Fattys+Owner🐈%E2%80%8D⬛") {
+  if (url === "decode-text=FattysOwner") {
     decodeImage.classList.toggle('show');
     wrapper.style.display = 'none';
   }
